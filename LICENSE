@@ -2,19 +2,6 @@ MIT License
 
 Copyright (c) 2026 Samuele Voltan ("vs-sr-dev")
 
-This license applies to the ORIGINAL DOCUMENTATION in this repository.
-
-It does NOT apply to the DingusPPC emulator. The emulator changes described
-in dingusppc/dbdma-rx-fix.md are modifications to DingusPPC
-(https://github.com/dingusdev/dingusppc), which is licensed under the GNU
-General Public License version 3 (GPLv3). This repository documents those
-changes in prose and does not redistribute DingusPPC source files. If you
-redistribute the modified DingusPPC source itself, GPLv3 applies to it,
-including the obligation to provide complete corresponding source and
-attribution.
-
----
-
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
