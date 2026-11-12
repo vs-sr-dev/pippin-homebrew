@@ -1,5 +1,7 @@
 # pippin-homebrew
 
+> **A record of June 2026, partly superseded.** The DingusPPC changes described here were made against the DingusPPC of that time and never submitted. Upstream DingusPPC has since built the same serial path on its own: the ESCC moved to a new DMA API with MacIO dispatchers for its DMA channels (May 2026), and FLUSH now reports `resCount` and `xferStatus` as the DBDMA spec requires ([#198](https://github.com/dingusdev/dingusppc/pull/198), August 2026). Use upstream [DingusPPC](https://github.com/dingusdev/dingusppc), not the fixes in `dingusppc/`. The rest of this repository still stands as a dated record: the Pippin's networking hardware, the virtual modem and PPP chain, the Netscape 1.1N falsification and the thin-client browser.
+
 Technical documentation for networking the **Bandai Pippin @WORLD** (1996) under emulation — including a set of upstreamable fixes to the **DingusPPC** emulator that put the emulated Pippin **on the real Internet**, and a homebrew thin-client browser for it.
 
 This is a preservation-research effort. The Pippin is barely documented and barely emulated; its networking path had, as far as we can tell, never been brought up in an emulator before this work. The repository records the hardware facts, the emulator fixes (with their GPLv3 obligations made explicit), and an honest account of where the investigation ended — including a result that **falsifies** the obvious explanation.
